@@ -1,0 +1,8 @@
+{
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/(.*)", "status": 404, "dest": "/404.html" },
+      {"src": "/arc-sw.js",
+      "dest": "https://arc.io/arc-sw.js"}
+    ]
+  }
