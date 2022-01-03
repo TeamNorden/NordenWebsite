@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "analyze": "ANALYZE=true next build",
-    "start": "next start",
+    "start": "next start -p 4585",
+    "buildThenStart": "next build && next start -p 4585",
     "typecheck": "tsc --noEmit",
     "export": "next build && next export",
     "lint": "next lint"
