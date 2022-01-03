@@ -13,6 +13,7 @@ export default function HomePage() {
         </Text>
         <Divider orientation="vertical" />
         <Button component={"a"}
+                color={"red"},
                 href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
                 m={"xl"}
                 leftIcon={<RiLink />}
